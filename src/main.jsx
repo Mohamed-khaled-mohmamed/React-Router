@@ -12,7 +12,7 @@ import Index from './routes';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/React-Router',
     loader: rootLoader,
     errorElement: <ErrorPage />,
     element: <Root />,
